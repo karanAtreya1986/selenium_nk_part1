@@ -14,6 +14,7 @@ public class HeadlessBrowser {
 		//chrome options.
 		ChromeOptions co = new ChromeOptions();
 		co.addArguments("--headless");
+		co.addArguments("--incognito");
 		
 //		WebDriver driver = new ChromeDriver();
 //		WebDriver driver = new ChromeDriver(co);
